@@ -1,0 +1,80 @@
+body {
+  background: white;
+}
+
+.amount {
+  background-size: 0.3in;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0.01in 0.05in;
+  color: white;
+  font-weight: bold;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+.field.effecttype {
+  border-width: 0;
+  position: absolute;
+  left: -0.16in;
+  top: 0.05in;
+}
+
+th .amount {
+  padding: 0.1in;
+}
+
+.moon.amount {
+  background-image: url(icon_moon.png);
+}
+
+.sun.amount {
+  background-image: url(icon_sun.png);
+}
+
+#supply {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card_thumb {
+  background-color: #dedbb8;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.dot:before {
+  content: "• "
+}
+
+#controls {
+  margin-top: 50px;
+}
+
+#controls > span {
+  margin: 50px;
+}
+
+.card_thumb {
+  position: relative;
+}
+
+.card_thumb.disabled {
+  color: #a7a599;
+  text-decoration: line-through;
+}
+
+.circled_over {
+  position: absolute;
+  border-radius: 50%;
+  border: 2.3px solid red;
+  width: 105%;
+  top: -5%;
+  height: 100%;
+  left: -5%;
+  z-index: 10;
+}

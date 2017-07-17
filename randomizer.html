@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="diceforge.css" />
+  <script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+  <script src="diceforge-picker.js"></script>
+</head>
+<body>
+  <table id="supply">
+    <thead><tr>
+      <th>Cost</th>
+      <th class="dot">Dot</th>
+      <th class="alt">Non-dot</th>
+    </tr></thead>
+    <tr class="sun_row" id="sun_1a">
+      <th class="rowlabel sun amount">1</th>
+      <td class="dot card_thumb">The Elder</td>
+      <td class="na"></td>
+    </tr>
+    <tr class="sun_row" id="sun_1b">
+      <th class="rowlabel sun amount">1</th>
+      <td class="dot card_thumb">Wild Spirits</td>
+      <td class="na"></td>
+    </tr>
+    <tr class="sun_row" id="sun_2">
+      <th class="rowlabel sun amount">2</th>
+      <td class="dot card_thumb">The Guardian's Owl</td>
+      <td class="alt card_thumb">Celestial Ship</td>
+    </tr>
+    <tr class="sun_row" id="sun_3">
+      <th class="rowlabel sun amount">3</th>
+      <td class="dot card_thumb">Minotaur</td>
+      <td class="alt card_thumb">The Guardian's Shield</td>
+    </tr>
+    <tr class="sun_row" id="sun_4">
+      <th class="rowlabel sun amount">4</th>
+      <td class="dot card_thumb">Gorgon</td>
+      <td class="alt card_thumb">Triton</td>
+    </tr>
+    <tr class="sun_row" id="sun_5">
+      <th class="rowlabel sun amount">5</th>
+      <td class="dot card_thumb">Mirror of the Abyss</td>
+      <td class="na"></td>
+    </tr>
+    <tr class="sun_row" id="sun_6">
+      <th class="rowlabel sun amount">6</th>
+      <td class="dot card_thumb">Sphinx</td>
+      <td class="alt card_thumb">Cyclops</td>
+    </tr>
+    <tr class="moon_row" id="moon_1a">
+      <th class="rowlabel moon amount">1</th>
+      <td class="dot card_thumb">The Blacksmith's Hammer</td>
+      <td class="na"></td>
+    </tr>
+    <tr class="moon_row" id="moon_1b">
+      <th class="rowlabel moon amount">1</th>
+      <td class="dot card_thumb">The Blacksmith's Chest</td>
+      <td class="na"></td>
+    </tr>
+    <tr class="moon_row" id="moon_2">
+      <th class="rowlabel moon amount">2</th>
+      <td class="dot card_thumb">The Silver Hind</td>
+      <td class="alt card_thumb">Great Bear</td>
+    </tr>
+    <tr class="moon_row" id="moon_3">
+      <th class="rowlabel moon amount">3</th>
+      <td class="dot card_thumb">Satyrs</td>
+      <td class="alt card_thumb">Tenacious Boar</td>
+    </tr>
+    <tr class="moon_row" id="moon_4">
+      <th class="rowlabel moon amount">4</th>
+      <td class="dot card_thumb">Ferryman</td>
+      <td class="alt card_thumb">Cerberus</td>
+    </tr>
+    <tr class="moon_row" id="moon_5">
+      <th class="rowlabel moon amount">5</th>
+      <td class="dot card_thumb">Helmet of Invisibility</td>
+      <td class="na"></td>
+    </tr>
+    <tr class="moon_row" id="moon_6">
+      <th class="rowlabel moon amount">6</th>
+      <td class="dot card_thumb">Cancer</td>
+      <td class="alt card_thumb">Sentinel</td>
+    </tr>
+    <tr id="sunmoon55">
+      <th class="rowlabel">
+        <span class="sun amount">5</span>
+        +
+        <span class="moon amount">5</span>
+      </th>
+      <td class="dot card_thumb">Hydra</td>
+      <td class="alt card_thumb">Typhon</td>
+
+    </tr>
+  </table>
+  <div id="controls">
+    <span><button id="randomize">Randomize</button></span>
+  </div>
+</body>
+</html>
